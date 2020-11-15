@@ -22,7 +22,7 @@ namespace Vidly.Controllers
             return new List<Customer>
             {
                 new Customer {Id = 1, Name = "Mak"},
-                new Customer {Id = 2, Name = "Nidhi"}
+                new Customer {Id = 2, Name = "John"}
             };
         }
 
