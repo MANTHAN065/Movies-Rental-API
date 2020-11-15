@@ -30,14 +30,14 @@ namespace Vidly.Controllers
             return View(customers);
         }
 
-        //public IEnumerable<Customer> GetCustomers()
-        //{
-        //    return new List<Customer>
-        //    {
-        //        new Customer {Id = 1, Name = "Mak"},
-        //        new Customer {Id = 2, Name = "John"}
-        //    };
-        //}
+        public IEnumerable<Customer> GetCustomers()
+        {
+            return new List<Customer>
+            {
+                new Customer {Id = 1, Name = "Mak"},
+                new Customer {Id = 2, Name = "Nidhi"}
+            };
+        }
 
         public ActionResult Details(int id)
         {
